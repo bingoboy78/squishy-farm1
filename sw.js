@@ -1,7 +1,7 @@
 'use strict';
 const ROOT=new URL('./',self.location.href).href;
 const PREFIX='squishy-farm:'+ROOT+':';
-const CACHE=PREFIX+'2026-11-05-v1';
+const CACHE=PREFIX+'2026-11-05-v2-bonus';
 const FILES=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png'];
 const URLS=FILES.map(p=>new URL(p,ROOT).href);
 self.addEventListener('install',event=>{
