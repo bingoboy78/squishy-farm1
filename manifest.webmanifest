@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Сквиши-Ферма — учимся умножать",
+  "short_name": "Сквиши-Ферма",
+  "description": "Умножай, играй и собирай девять сквиши-друзей. Без спешки и оценок.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f5ee",
+  "theme_color": "#f8f5ee",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}
